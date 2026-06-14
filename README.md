@@ -347,6 +347,7 @@ npm run dev
 | Variable         | Description                       | Example                                  |
 | ---------------- | --------------------------------- | ---------------------------------------- |
 | FOUNDRY_ENDPOINT | Azure AI Foundry Endpoint         | https://your-agent.services.ai.azure.com |
+|MARTA_ASSISTANT_ID| Azure AI Agent | your-agent-id|
 | AZURE_CLI_AUTH   | AzureCliCredential Authentication | Requires az login                        |
 
 ---
@@ -417,6 +418,7 @@ Different AI models were used strategically based on their strengths:
 | Video edit planning and demo script | Gemini Omni |
 | Hackathon compliance review | Gemini |
 | MARTA system prompt engineering | Claude + Gemini |
+| Engineering and Architect Advices | K (Azure Foundry Agent)
 
 This multi-model approach mirrors real-world AI-assisted development — using the right tool for the right task rather than defaulting to a single model for everything.
 
